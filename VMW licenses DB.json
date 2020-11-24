@@ -1,0 +1,404 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1609975485208,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "c298bcac-f504-4bd5-bf63-8502172c1dde",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1609976602810,
+      "lastUpdateUserId": "447d87cf-a209-4771-9b1c-5e8ac0271e61",
+      "locked": false,
+      "name": "VMware Licensing dashboard",
+      "rank": 0,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "447d87cf-a209-4771-9b1c-5e8ac0271e61",
+      "widgetInteractions": [],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel11182-1",
+                        "isStringMetric": false,
+                        "label": "vSphere",
+                        "link": "",
+                        "metricKey": "Super Metric|sm_a19844ff-48f1-4a0e-a423-caddee63e892",
+                        "metricName": "Super Metrics|Count of vSphere licenses",
+                        "metricUnitId": "CPU",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "CPU",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel11182-2",
+                        "isStringMetric": false,
+                        "label": "vCenter Server",
+                        "link": "",
+                        "metricKey": "Super Metric|sm_dd4f2630-2ea4-4617-a4cb-4aae4f00e894",
+                        "metricName": "Super Metrics|Count of VC licenses",
+                        "metricUnitId": "Instances",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "Instances",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel11182-3",
+                        "isStringMetric": false,
+                        "label": "vRealize Suite",
+                        "link": "",
+                        "metricKey": "Super Metric|sm_03515b01-bc64-4b9c-8f84-4e27026dc97f",
+                        "metricName": "Super Metrics|Count of vRealize Suite licenses",
+                        "metricUnitId": "PLU",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "PLU",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel11182-4",
+                        "isStringMetric": false,
+                        "label": "VSAN",
+                        "link": "",
+                        "metricKey": "Super Metric|sm_d3d2ce6b-b0e4-4444-821b-c4e6cd042041",
+                        "metricName": "Super Metrics|Count of VSAN Licenses",
+                        "metricUnitId": "CPU",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "CPU",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "Total VMware licenses available",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 1
+            },
+            "height": 152,
+            "id": "e747c7c0-0b84-4699-a5cd-83233b9a0fc0",
+            "title": "Total VMware licenses available",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 0,
+                        "handleOldColoring": false,
+                        "id": "extModel12840-1",
+                        "isStringMetric": false,
+                        "label": "vSphere",
+                        "link": "",
+                        "metricKey": "cpu|numpackages",
+                        "metricName": "CPU|Number of CPU Sockets",
+                        "metricUnitId": "CPU",
+                        "orangeBound": 80,
+                        "redBound": 81,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "CPU",
+                        "yellowBound": 75
+                     },
+                     {
+                        "colorMethod": 0,
+                        "handleOldColoring": false,
+                        "id": "extModel12840-2",
+                        "isStringMetric": false,
+                        "label": "vCenter Servers",
+                        "link": "",
+                        "metricKey": "summary|total_number_vcenters",
+                        "metricName": "Summary|Total Number of vCenter Server(s)",
+                        "metricUnitId": "Instance",
+                        "orangeBound": 10,
+                        "redBound": 11,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "Instance",
+                        "yellowBound": 8
+                     },
+                     {
+                        "colorMethod": 0,
+                        "handleOldColoring": false,
+                        "id": "extModel12840-3",
+                        "isStringMetric": false,
+                        "label": "vRealize Suite",
+                        "link": "",
+                        "metricKey": "Super Metric|sm_561f5d5d-e68a-49c1-b041-69b85f20c372",
+                        "metricName": "Super Metrics|vRealize Suite  licenses usage",
+                        "metricUnitId": "PLU",
+                        "orangeBound": 80,
+                        "redBound": 81,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "PLU",
+                        "yellowBound": 75
+                     },
+                     {
+                        "colorMethod": 0,
+                        "handleOldColoring": false,
+                        "id": "extModel12840-4",
+                        "isStringMetric": false,
+                        "label": "VSAN",
+                        "link": "",
+                        "metricKey": "Super Metric|sm_f2d1e383-427d-431e-a48c-196189ce860e",
+                        "metricName": "Super Metrics|VSAN licenses usage",
+                        "metricUnitId": "CPU",
+                        "orangeBound": 80,
+                        "redBound": 81,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "CPU",
+                        "yellowBound": 75
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "VMware licenses utilized",
+               "valueSize": 24,
+               "visualTheme": 8
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 4
+            },
+            "height": 209,
+            "id": "3a99d14f-2955-4fb4-9283-eede1f17aa00",
+            "title": "VMware licenses utilized",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": ["legend"],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-3",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Trend of usage - vSphere licenses",
+               "traversalSpecId": null,
+               "viewDefinitionId": "bef09fd6-a50a-446a-ba1f-cefdb45274b3"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 8
+            },
+            "height": 323,
+            "id": "ed151c92-5e5b-4d63-b6f7-72f2823f7be2",
+            "title": "Trend of usage - vSphere licenses",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": ["legend"],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-6",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Trend of usage - vCenter licenses",
+               "traversalSpecId": null,
+               "viewDefinitionId": "6ad96ad9-a3b7-4e3e-933b-2541a53020a3"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 8
+            },
+            "height": 324,
+            "id": "87ec7988-66b7-4b5d-845e-d10c6c97fc2d",
+            "title": "Trend of usage - vCenter licenses",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": ["legend"],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-7",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Trend of Usage - vRealize Suite licenses",
+               "traversalSpecId": null,
+               "viewDefinitionId": "dabd6998-0985-4176-a213-dbd944093b2a"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 7,
+               "y": 8
+            },
+            "height": 323,
+            "id": "8a077402-8fe1-46a7-b6ff-08ef3635ad4a",
+            "title": "Trend of Usage - vRealize Suite licenses",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": ["legend"],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-9",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Trend of Usage - VSAN licenses",
+               "traversalSpecId": null,
+               "viewDefinitionId": "94bba43e-dc53-4925-896e-744f6ebe5313"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 8
+            },
+            "height": 323,
+            "id": "ea5e34ea-1993-4ce2-84a1-64958be6a906",
+            "title": "Trend of Usage - VSAN licenses",
+            "type": "View"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [{
+         "adapterKindKey": "VMWARE",
+         "identifiers": [],
+         "internalId": "resource:id:0_::_",
+         "name": "vSphere World",
+         "resourceKindKey": "vSphere World"
+      }],
+      "resourceKind": [{
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "vSphere World"
+      }]
+   },
+   "uuid": "8670657c-479c-4707-9593-38bc3da2a494"
+}

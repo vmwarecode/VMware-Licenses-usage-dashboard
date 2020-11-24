@@ -1,0 +1,74 @@
+{
+   "f2d1e383-427d-431e-a48c-196189ce860e": {
+      "resourceKinds": [{
+         "resourceKindKey": "vSphere World",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1609960627285,
+      "name": "VSAN licenses usage",
+      "formula": "sum(${adaptertype=VMWARE, objecttype=HostSystem, metric=cpu|numpackages, depth=8, where=(${metric=config|vSANEnabled} equals 'Enabled')})",
+      "description": "VSAN licenses usage by count of Sockets in VSAN enabled Hosts",
+      "unitId": "",
+      "modifiedBy": "447d87cf-a209-4771-9b1c-5e8ac0271e61"
+   },
+   "561f5d5d-e68a-49c1-b041-69b85f20c372": {
+      "resourceKinds": [{
+         "resourceKindKey": "vSphere World",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1609975270227,
+      "name": "vRealize Suite  licenses usage",
+      "formula": "sum(${adaptertype=VMWARE, objecttype=HostSystem, metric=cpu|numpackages, depth=8})",
+      "description": "vRealize Suite  licenses usage - total CPU sockets",
+      "unitId": "",
+      "modifiedBy": "447d87cf-a209-4771-9b1c-5e8ac0271e61"
+   },
+   "03515b01-bc64-4b9c-8f84-4e27026dc97f": {
+      "resourceKinds": [{
+         "resourceKindKey": "vSphere World",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1609975079581,
+      "name": "Count of vRealize Suite licenses",
+      "formula": "60",
+      "description": "Count of vRealize Suite licenses - Manually added",
+      "unitId": "",
+      "modifiedBy": "447d87cf-a209-4771-9b1c-5e8ac0271e61"
+   },
+   "dd4f2630-2ea4-4617-a4cb-4aae4f00e894": {
+      "resourceKinds": [{
+         "resourceKindKey": "vSphere World",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1609975135881,
+      "name": "Count of VC licenses",
+      "formula": "10",
+      "description": "Count of vSphere licenses - Manually added",
+      "unitId": "",
+      "modifiedBy": "447d87cf-a209-4771-9b1c-5e8ac0271e61"
+   },
+   "a19844ff-48f1-4a0e-a423-caddee63e892": {
+      "resourceKinds": [{
+         "resourceKindKey": "vSphere World",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1609975005138,
+      "name": "Count of vSphere licenses",
+      "formula": "80",
+      "description": "Count of vSphere licenses - Manually added",
+      "unitId": "",
+      "modifiedBy": "447d87cf-a209-4771-9b1c-5e8ac0271e61"
+   },
+   "d3d2ce6b-b0e4-4444-821b-c4e6cd042041": {
+      "resourceKinds": [{
+         "resourceKindKey": "vSphere World",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1609975056763,
+      "name": "Count of VSAN Licenses",
+      "formula": "80",
+      "description": "Count of VSAN licenses - Manually added",
+      "unitId": "",
+      "modifiedBy": "447d87cf-a209-4771-9b1c-5e8ac0271e61"
+   }
+}
